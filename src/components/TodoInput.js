@@ -9,7 +9,7 @@ function TodoInput({todos, setTodos}) {
    const [todo, setTodo] = useState(""); 
 
 const handleClick =()=>{
-//id, name, isCompleated" add as array object
+//id, name, isCompleated
 if(todo.length>0){
 const newTodo ={ id: v4(),
      name:todo, 
