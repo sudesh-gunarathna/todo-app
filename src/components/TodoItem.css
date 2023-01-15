@@ -1,0 +1,35 @@
+.todo-item-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: center;
+    background-color: #d9dfe4;
+    margin-top: 15px;
+    border-radius: 10px;
+}
+.todo-item-text{
+  display: flex;
+  gap: 10px;
+
+}
+.todo-item-button{
+    display: flex;
+    gap: 5px;
+}
+.todo-item-button button{
+    padding: 5px;
+}
+.todo-item-button svg{
+    width: 20px;
+    height: 20px;
+}
+.pencil-button{
+   color: #0ea5e9; 
+   border: 1px solid #0ea5e9;
+   border-radius: 5px;
+}
+.trash-button{
+    color: red;
+    border: 1px solid red;
+    border-radius: 5px;
+}
